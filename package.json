@@ -1,0 +1,16 @@
+{
+  "name": "todo_postg",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "cd server && npm install",
+    "server": "node ./server/server.js",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
